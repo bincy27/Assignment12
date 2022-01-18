@@ -1,0 +1,108 @@
+*{
+	padding: 0;
+	margin: 0; 
+}
+.banner
+{
+	background-image:url('../img/academy-banner.jpg');
+}
+.vh-80
+{
+	height:80vh;
+}
+.thirdsection
+{
+	background-image:url('../img/modulebg.jpg');
+	background-size:cover;
+
+}
+
+
+.sec1
+{
+	background-image:url('../img/testsbg.jpg');
+}
+.sec2
+{
+background-image:url('../img/intrvwbg.jpg');
+}
+.vh-50
+{
+	height:50vh;
+}
+.training p::before
+{
+	content:'{';
+	color:red;
+}
+.training p::after
+{
+	content:'}';
+	color:red;
+}
+
+@media only screen and (max-width:576px)
+{
+	
+
+.banner
+{
+	background-image: none;
+	background-color:cyan;
+	
+}
+/*.d
+{
+	height:100vh;
+}*/
+
+.thirdsection
+{
+	height:150vh;
+	/*width:50vh;*/
+	/*background-image:fixed;*/
+}
+.aaa
+{
+	position: relative;
+	width:100%;
+}
+.aa
+{
+	position:absolute;
+	top:76vh;
+	width:100%;
+
+}
+/*.image
+{
+	width:100%;
+	background-image: cover;
+}*/
+.ab
+{
+	margin-top:250px;
+}
+.image1
+{
+	width:100%;
+	height:50vh;
+	overflow: hidden;
+}
+.aa
+{
+	top:120%;
+	width:100%;
+}
+.thirdsection
+{
+	height:180vh;
+}
+.start-50
+{
+	width:100%;
+
+}
+
+
+}
